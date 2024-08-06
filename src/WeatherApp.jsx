@@ -12,6 +12,8 @@ export default function WeatherApp() {
   // API Key : 8a9ef250e6ff0c38d2b211a54d0169ac
   // Units : metric (temp in celsius)
 
+  const API_KEY = '8a9ef250e6ff0c38d2b211a54d0169ac';
+
   const searchData = (event) => {
     
     // console.log(city)
@@ -19,7 +21,7 @@ export default function WeatherApp() {
     if(city!==''){  // it prevent from error when user submit empty input
 
       // fetch the api data
-      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=8a9ef250e6ff0c38d2b211a54d0169ac&units=metric`)
+      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`)
       .then((res)=>res.json())  // it store the response in res and convert into json formate
       .then((finalRes)=>{       // it store the final response in finalRes
         // console.log(finalRes.cod);
