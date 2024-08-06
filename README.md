@@ -9,7 +9,8 @@ A simple React-based weather application that fetches weather data for a specifi
 - [Technologies Used](#Technologies-Used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Components](#components)
+- [API Key](#API-Key)
+- [Acknowledgments](#Acknowledgments)
 - [More Projects](#More-Projects)
   
 
@@ -52,7 +53,7 @@ A simple React-based weather application that fetches weather data for a specifi
 
 ## Usage
 
-To use the todo-list-app, follow these steps:
+To use the Weather-app, follow these steps:
 
 1) Enter the name of a city in the search input field.
 2) Click the "Search" button or press "Enter" to fetch weather details.
