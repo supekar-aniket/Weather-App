@@ -64,7 +64,7 @@ To use the Weather-app, follow these steps:
 
 The application uses the OpenWeatherMap API. Make sure to replace the API key in the code with your own if needed.
 
-    ```sh
+  ```sh
     const API_KEY = 'YOUR_API_KEY';
 
 
