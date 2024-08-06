@@ -33,12 +33,12 @@ A simple React-based weather application that fetches weather data for a specifi
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/supekar-aniket/Weather-App.git
+   git clone https://github.com/supekar-aniket/weather-app.git
 
 2. Navigate to the project directory:
    
    ```sh
-   cd Weather-App
+   cd weather-app
 
 3. Install the dependencies:
 
